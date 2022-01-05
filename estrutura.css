@@ -1,0 +1,81 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.flex-container-cabecalho {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px ;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+width: 75px;
+height: 79px;
+margin-right: 20px;
+}
+
+.logo-titulo {
+ font-size: 40px;
+ color: #60B9BF;
+}
+
+.flex-container-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #60B9BF;
+}
+
+.menu {
+    margin: 0 20px;
+    padding: 0 15px;
+}
+
+.link {
+   text-decoration: none;
+   color: white;
+}
+
+.link:hover {
+    color: #968932;
+}
+
+.flex-container-conteudo {
+    margin: 15px 15px;
+    padding: 15px 50px;
+}
+
+.flex-container-conteudo h3 {
+    color: #60B9BF;
+    text-align: center;
+}
+
+.flex-container-conteudo p {
+    font-size: 16px;
+    text-indent: 30px;
+    line-height: 25px;
+    text-align: justify;
+    color: black;
+ }
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-rodape {
+    background-color: #60B9BF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50px;
+}
+
+.rodape {
+    color: white;
+    margin: 3px 0;
+}
