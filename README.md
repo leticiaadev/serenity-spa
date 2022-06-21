@@ -1,2 +1,2 @@
 # serenity-spa
-Objetiva aperfeiçoar o CSS
+Aperfeiçoamento de CSS
